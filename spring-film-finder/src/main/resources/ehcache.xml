@@ -1,0 +1,29 @@
+<ehcache>
+	<!-- Write out to tmpdir when memory overflows. -->
+    <diskStore path="java.io.tmpdir"/>
+    
+    <!-- Stores objects of type List<MovieSearchResult>, keyed by FilmSearchTerms -->
+    <cache name="moviesSearchResults"
+       		maxElementsInMemory="100"
+            eternal="false"
+            timeToIdleSeconds="3000"
+            timeToLiveSeconds="3000"
+            overflowToDisk="true"
+            maxElementsOnDisk="10000000"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"/>
+    
+    <!-- Stores objects of type MovieDetailsResult, keyed by imdbId -->
+    <cache name="movieDetails"
+       		maxElementsInMemory="100"
+            eternal="false"
+            timeToIdleSeconds="3000"
+            timeToLiveSeconds="3000"
+            overflowToDisk="true"
+            maxElementsOnDisk="10000000"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"/>
+            
+</ehcache>

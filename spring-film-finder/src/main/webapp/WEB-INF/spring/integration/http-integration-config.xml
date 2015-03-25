@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:int="http://www.springframework.org/schema/integration"
+	xmlns:int-http="http://www.springframework.org/schema/integration/http"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/integration/http http://www.springframework.org/schema/integration/http/spring-integration-http-4.1.xsd
+		http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration-4.1.xsd">
+
+	<int:annotation-config/>
+
+	<bean id="textHtmlAcceptingRestTemplate" class="cov.pow.mjp.ff.rest.TextHtmlAcceptingRestTemplate"/>
+
+	<int:gateway service-interface="cov.pow.mjp.ff.http.MovieSearchGateway"
+				 default-request-timeout="5000"
+				 default-reply-timeout="5000">
+		<int:method name="getMovieDetails" 
+					request-channel="singleMovieDetailsRequestChannel" 
+					reply-channel="singleMovieResultChannel"/>
+		<int:method name="searchForMovies" 
+					request-channel="muiltipleMoviesRequestChannel" 
+					reply-channel="muiltipleMoviesResultsChannel"/>
+	</int:gateway>
+
+	<int:channel id="singleMovieDetailsRequestChannel"/>
+	<int-http:outbound-gateway id="httpSingleMovieGateway" 
+							   request-channel="singleMovieDetailsRequestChannel" 
+							   http-method="GET"
+							   url="http://www.omdbapi.com/?i={imdbId}"
+							   expected-response-type="cov.pow.mjp.ff.model.MovieDetailsResult" 
+							   rest-template="textHtmlAcceptingRestTemplate"
+							   reply-timeout="5000"
+							   reply-channel="singleMovieResultChannel">
+    	<int-http:uri-variable name="imdbId" expression="payload"/>
+    </int-http:outbound-gateway>
+	<int:publish-subscribe-channel id="singleMovieResultChannel"/>
+	<int:logging-channel-adapter channel="singleMovieResultChannel" level="INFO" />
+
+	<int:channel id="muiltipleMoviesRequestChannel"/>
+	<int-http:outbound-gateway id="httpMultiMovieGateway" 
+							   request-channel="muiltipleMoviesRequestChannel" 
+							   http-method="GET"
+							   url="http://www.omdbapi.com/?{searchTerms}"
+							   expected-response-type="cov.pow.mjp.ff.model.MovieResultList" 
+							   rest-template="textHtmlAcceptingRestTemplate"
+							   reply-timeout="5000"
+							   reply-channel="muiltipleMoviesResultsChannel">
+    	<int-http:uri-variable name="searchTerms" expression="payload"/>
+    </int-http:outbound-gateway>
+	<int:publish-subscribe-channel id="muiltipleMoviesResultsChannel"/>
+	<int:logging-channel-adapter channel="muiltipleMoviesResultsChannel" level="INFO" />
+</beans>

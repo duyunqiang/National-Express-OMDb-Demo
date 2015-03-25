@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/context 
+			http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	
+	<mvc:annotation-driven/>
+
+	<!-- Autowire (inject dependencies) of annotated controllers from this package and below.
+		Take care not to create duplicate beans that are also picked up by the scan performed for the root context. -->
+	<context:component-scan base-package="cov.pow.mjp.ff.controllers">
+    	<context:include-filter expression="org.springframework.stereotype.Controller" type="annotation"/>
+	</context:component-scan>
+
+	<!-- Copy across resources to speed up their retrieval. -->
+	<mvc:resources mapping="/resources/**" location="/resources/" />
+
+	<!-- Use JSPs with Tiles as the view technology. -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+	
+	<!-- Mocks -->
+	<bean id="movieDbService" class="org.mockito.Mockito" factory-method="mock">
+	    <constructor-arg value="cov.pow.mjp.ff.service.MovieDbService"/>
+	</bean>
+	<bean id="device" class="org.mockito.Mockito" factory-method="mock">
+	    <constructor-arg value="org.springframework.mobile.device.Device"/>
+	</bean>
+	
+
+</beans>

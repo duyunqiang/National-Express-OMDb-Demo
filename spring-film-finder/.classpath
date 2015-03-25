@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/decd76e2c461157804473468bbdc6b8eb6d6121b/logback-classic-1.1.2-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/jstl/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.9.0/75146db5ec9af47e2a2efa7eadeb7b08fe05f374/ehcache-2.9.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.9.0/8a4f89d91daafb3994ed212201f935554a200b4b/ehcache-2.9.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.4/d2fcced21df0d50698cba6852f1507e324a888b4/httpclient-4.4-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.4/6d220441ca681dddc55a189eae81a437309128b8/httpclient-4.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-api/3.0.3/634a949c1bb90e72693c0255bb357e23101ae4e1/tiles-api-3.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-api/3.0.3/423c0ec3642cc134f3cd6e636ca7833d489c8920/tiles-api-3.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-core/3.0.3/dee311e94994a1e7b29c134c672380029d39ab14/tiles-core-3.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-core/3.0.3/2cba57c1e93f87b75f297f8e009c9926fa49ae89/tiles-core-3.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-jsp/3.0.3/a440a2c8752b8b868b278d94918ce3545725ae72/tiles-jsp-3.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-jsp/3.0.3/87ef2d1d5f5313fba23433df4a214235bc87ec3/tiles-jsp-3.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.2.Final/6aa107955693b90338b475fe6b46218813d465b/hibernate-validator-5.1.2.Final-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.2.Final/8aecb33d3587f32c877827c2bdddae0d227a40ed/hibernate-validator-5.1.2.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.1.5.RELEASE/ea2bdfc5cdfee5dd5b4cc3ecfc84ee5f105a59e9/spring-context-support-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.1.5.RELEASE/8d680831b0edde905b63edd238cbe7160efc5145/spring-context-support-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.5.RELEASE/bb34cc6820000f0bc83bf0319098a18d6326bb82/spring-web-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.5.RELEASE/8e542f560b65c920bf60cbc5db5b1097610fa94a/spring-web-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.5.RELEASE/c5937e72aedcd88f01cdaab36624120db30a4e2c/spring-webmvc-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.5.RELEASE/71b10b2ba7f6f0cce690d55e4bc8afc823d16628/spring-webmvc-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-core/4.1.2.RELEASE/77e44838f591e749fecb0fa3c6abfd2c38ec0a61/spring-integration-core-4.1.2.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-core/4.1.2.RELEASE/e8af369aeee0c788ee6a7109665d4f46cc1332ea/spring-integration-core-4.1.2.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-http/4.1.2.RELEASE/d6f62e2dd32d7db1dc19aab9b4d8a7cba69b6584/spring-integration-http-4.1.2.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-http/4.1.2.RELEASE/89dd54a646a108e43405853104f4f1a1ab1723d4/spring-integration-http-4.1.2.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.mobile/spring-mobile-device/1.1.3.RELEASE/7db9c9579adda3a6994093442db8d621bfa36fe2/spring-mobile-device-1.1.3.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.mobile/spring-mobile-device/1.1.3.RELEASE/d2e419ade32355682ceb8a696cbeb448f660ede2/spring-mobile-device-1.1.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.1/282fddba73c32389481c4107bed4fb6206d8349b/jackson-databind-2.5.1-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.1/5e57baebad3898aca8a825adaf2be6fd189442f2/jackson-databind-2.5.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.6/eccf8c93c8cbc25d1fdae373ac38fc7bbd809397/jcl-over-slf4j-1.7.6-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.6/ab1648fe1dd6f1e5c2ec6d12f394672bb8c1036a/jcl-over-slf4j-1.7.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/47e033b7ab18c5dbd5fe29fc1bd5a40afe028818/hamcrest-all-1.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.5.RELEASE/766cb0fab4dea1301e8e32e40fc7c574bc86478d/spring-test-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.5.RELEASE/533c8d9da47a7c96dcdcb27c8ffa544a5e284039/spring-test-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/502e1c764542fe747896c1dc04f023acfe0e5cbc/logback-core-1.1.2-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4/8ee918dfda1c6ae7a97b9c107bb26fd6771e4634/httpcore-4.4-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4/e9b3863fd9c8a273ceed4a7fae10f40bb10a2328/httpcore-4.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-api/1.0.3/bc653d7c57f1a2dbdee22b6764b37f5f530eae47/tiles-request-api-1.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-api/1.0.3/94134f2b44c49d926c6a366ea5684e90165bd061/tiles-request-api-1.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.0/abc81a9857b4d396ec8093f023f42e06b01e975a/commons-digester-2.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.0/3dbd8a76683cd563583a2c78c356ad8b8acf38bf/commons-digester-2.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-servlet/3.0.3/22a436f0f9ce061aa57e4e73e56eb613ff328fe9/tiles-servlet-3.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-servlet/3.0.3/20717b4f5ad4943f468cb2350a112f49fb518425/tiles-servlet-3.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-template/3.0.3/751430cd275bd4c03e9306f44fa332b0bb613931/tiles-template-3.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-template/3.0.3/326bd3c4f2b96d984f826736e338e0cc3c2fd6f5/tiles-template-3.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-jsp/1.0.3/41cc85a7a3fb7c1ddd623620f9afe7b422623bcd/tiles-request-jsp-1.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-jsp/1.0.3/15da0c6a475a01bb3a0ab8044fa100e6ec979ed6/tiles-request-jsp-1.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/4d2c4df2c1a1b2d2f9201f6d580d7d19ccf8cbdf/jboss-logging-3.1.3.GA-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/da0cec0cf5fa28fba22e44700d72259e0225f2e4/classmate-1.0.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/434efef28c81162b17c540e634cffa3bd9b09b4c/classmate-1.0.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.5.RELEASE/b86af53a9e63e230c32accc70e7d04c9f1e59dd4/spring-beans-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.5.RELEASE/5f82fae5c6359ff883e5e06c2c56169286b7e137/spring-beans-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.5.RELEASE/6422692bd6d2a1964a7e87efdc4324dfd9d31b76/spring-context-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.5.RELEASE/483e58e37120c008df917abda73cd81f68d269/spring-context-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.5.RELEASE/8dc34b838a8bed284f8b0990cfa0d193bc9f75b5/spring-core-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.5.RELEASE/4f9af02bca3066ea0d5ac450332ca210c5de1957/spring-core-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.5.RELEASE/d700da483a20bb615a0c7b7929a740cabe61e9d/spring-aop-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.5.RELEASE/f370549f6e84fe25671963c3f1c3f0e90d8b4cac/spring-aop-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.5.RELEASE/29bbac8c24170dd131968c596a8f8c76188afdec/spring-expression-4.1.5.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.5.RELEASE/e55a83a99260973099833cae425716ecb4b77850/spring-expression-4.1.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.4.RELEASE/a0335fa34e3813e85449fb66b1b223408cb6318d/spring-tx-4.1.4.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.4.RELEASE/7f1ffeeb32c348b34cdfb7cb24ded39540db7301/spring-tx-4.1.4.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.projectreactor/reactor-core/1.1.4.RELEASE/a943fa5eb56f37a3bab0cf85702e7637ad154656/reactor-core-1.1.4.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.projectreactor/reactor-core/1.1.4.RELEASE/da621f1aef5f8cd5c22ae78afec53f1e8659caed/reactor-core-1.1.4.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.1.RELEASE/1f32005be685750dabc32f6d9560417b9bd85ce/spring-retry-1.1.1.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.1.RELEASE/49d144293c184b72deb520d28211b7398911d34f/spring-retry-1.1.1.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.1.4.RELEASE/19b3779003dd7d649d0d3b2e654a85577c4e5d03/spring-messaging-4.1.4.RELEASE-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.1.4.RELEASE/833a6c4672741a227cceef2cdb06ca36ea908435/spring-messaging-4.1.4.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/88b177349b719fe0636b50889687b9ed036bfd89/jackson-annotations-2.5.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.1/4e5efde4b46995149e5e5bddf052730063ad47fa/jackson-core-2.5.1-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.1/e2a00ad1d7e540ec395e9296a34da484c8888d4d/jackson-core-2.5.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet/1.0.3/c99ac12f1ee5612cf0f37be1cf8ab23f17db9bfd/tiles-request-servlet-1.0.3-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet/1.0.3/d0f378718ee71ef240c34241d9f68cdad9aa1396/tiles-request-servlet-1.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-autotag-core-runtime/1.1.0/42692b999acc1f5d05f5af59af124c948d8cd048/tiles-autotag-core-runtime-1.1.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-autotag-core-runtime/1.1.0/1fb6109d5bc35c7403a55d019e0e8cf8ec06b49e/tiles-autotag-core-runtime-1.1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.goldmansachs/gs-collections/5.1.0/c04f78fcf966737cfcaaed227180014339b582e8/gs-collections-5.1.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.goldmansachs/gs-collections/5.1.0/7114c5349c816ea645b1ea3ffcc21fa073cbabc/gs-collections-5.1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.2.1/ecb48bda0a8b71b80293127e2f787cbf46adb9b4/disruptor-3.2.1-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.2.1/db375f499e32c3f06549e9addf8b1647123d6426/disruptor-3.2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/io.gatling/jsr166e/1.0/e18eb2f469a697638b86e473f52987b849a1c6e0/jsr166e-1.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/io.gatling/jsr166e/1.0/d1bf191a18dfe6e3157a4fbf6b527390d906ace6/jsr166e-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.goldmansachs/gs-collections-api/5.1.0/3b76d9d61b891a09d41b24c60d5f6c644a2e2535/gs-collections-api-5.1.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/com.goldmansachs/gs-collections-api/5.1.0/ea605cdf64cab5fc7b48c99f061d4c8db05b6ff1/gs-collections-api-5.1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="C:/Users/Mat/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>
